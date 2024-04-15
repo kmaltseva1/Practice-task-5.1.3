@@ -51,7 +51,7 @@ ul[class], ol[class] {
     @media screen and (min-width: 1220px) {
       .brands {
             margin-bottom: 50px; } } 
-    .site-content__container-title{
+    .site-content{
         box-sizing: border-box;
         width: 100%;
         line-height: 24px;
@@ -89,7 +89,8 @@ ul[class], ol[class] {
         }
     }
     .brands__list {
-        display: flex; }
+        display: flex; 
+        margin-left: 20px;}
     @media screen and (min-width: 768px) {
         .brands__list {
             flex-wrap: wrap; } }
@@ -102,7 +103,8 @@ ul[class], ol[class] {
         font-size: 18px;
         background: #ffffff;
         border: 1px solid #eaeaea;
-        border-radius: 6px; }
+        border-radius: 6px; 
+        margin-right: 10px;}
     @media screen and (min-width: 768px) {
         .brands__item {
             width: 224px;
